@@ -10,7 +10,7 @@ figcaption{
   color: #fff;
 }
 .seccion{
-  width: 90%;
+  width: 80%;
   margin:6em auto;
   max-width: 100em;
   text-align: center;
@@ -23,7 +23,16 @@ figcaption{
 }
 
 #titulo{
-  text-decoration: underline;
+  position: relative;
   text-align: left;
   margin-left: 6em;
+}
+
+#titulo::before{
+  position: absolute;
+  content:" ";
+  width: 3.5em;
+  height: 2px;
+  bottom: 0;
+  background: #000;
 }
