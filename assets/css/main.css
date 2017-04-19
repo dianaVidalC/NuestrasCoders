@@ -1,0 +1,29 @@
+figure{
+  position: relative;
+  display: inline-block;
+}
+
+figcaption{
+  position: absolute;
+  bottom: 1.2em;
+  right: 1.2em;
+  color: #fff;
+}
+.seccion{
+  width: 90%;
+  margin:6em auto;
+  max-width: 100em;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.coders{
+  width:13em;
+  height: 13em;
+}
+
+#titulo{
+  text-decoration: underline;
+  text-align: left;
+  margin-left: 6em;
+}
